@@ -1,0 +1,9 @@
+[Unit]
+Description=Changes brightness automatically
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /root/.scripts/phosh-brightness-patch.py
+
+[Install]
+WantedBy=multi-user.target
