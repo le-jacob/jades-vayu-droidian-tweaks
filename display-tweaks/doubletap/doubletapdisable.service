@@ -1,0 +1,9 @@
+[Unit]
+Description=Disable DT2W
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'echo 0 > /sys/touchpanel/double_tap'
+
+[Install]
+WantedBy=multi-user.target
