@@ -1,3 +1,7 @@
+# BEFORE INSTALLING THIS
+Please use this as a **last resort**, if you can, check out the package "[libdroid-hal-lights](https://github.com/droidian-vayu/droidian-images/issues/3#issuecomment-4217662813)" via Droidian's apt repository before installing this mess (sudo apt install libdroid-hal-lights)
+
+# IF YOU DARE TO CONTINUE
 Another goofy solution to a goofy problem.
 Why this patch when the phone already has high enough brightness? Well when you move the brightness slider, the display will get very dim, and its pretty much unfixable unless you restart the phone.
 The "phosh-brightness-patch.py" script basically runs the script of "/usr/bin/droidian-adapt-fix-phosh-brightness-xiaomi-vayu.sh", but continuously, with an option to change the brightness to your liking.
